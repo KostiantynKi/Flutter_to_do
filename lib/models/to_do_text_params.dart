@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 class ToDoTextParams {
-  String? theTask;
-  bool? isDone;
+  // TaskModel
+  String? theTask; // Text
+  bool? isDone; //isMarked
 
   ToDoTextParams({@required this.theTask, @required this.isDone});
 }
